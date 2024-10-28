@@ -323,6 +323,16 @@
         .hover-glow:hover {
             text-shadow: 0 0 10px var(--color-cyan-400), 0 0 20px var(--color-cyan-400), 0 0 30px var(--color-cyan-400);
         }
+
+        .footer-text {
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.5);
+            transition: color 0.3s ease;
+        }
+
+        .footer-text:hover {
+            color: rgba(255, 255, 255, 0.8);
+        }
     </style>
 </head>
 <body>
@@ -417,9 +427,9 @@
                 </section>
             </main>
 
-            <footer class="bg-gray-900 bg-opacity-50 backdrop-filter backdrop-blur-sm py-8">
+            <footer class="py-8">
                 <div class="container mx-auto px-4 text-center">
-                    <p class="hover-glow">© 2024 TST工作室 版权所有</p>
+                    <p class="footer-text">© 2024 TST工作室 版权所有</p>
                 </div>
             </footer>
         </div>
